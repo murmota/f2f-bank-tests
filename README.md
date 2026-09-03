@@ -17,9 +17,10 @@ docker compose up -d --build
 ```
 
 Запуск тестов:
-
+```
 npx playwright test
-
+```
+```
 npx playwright show-report
-
+```
 Описание найденных багов или неожиданного поведения приложения находится в NOTES.md
